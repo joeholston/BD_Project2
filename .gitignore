@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# DB Files
+Traffic_Violations.csv
+
 # C extensions
 *.so
 

@@ -1,0 +1,22 @@
+//findByDate(searchDate)
+//return time of stop, subagency, and description for violations on searchDate
+
+    db.violations.find({"date of stop":{$eq:"searchDate"}},{"time of stop":1, "subagency":1, "description":1, "_id":0})
+
+//countOutOfStateCars()
+//return number of cars that are not from MD
+
+    db.violations.count({"dl state":{$ne:"MD"}})
+
+//findWorstOwner()
+//return car make with most violations
+
+    db.violations.aggregate([{$group:{_id:"$make",makeCount:{$sum:1}}}, {$sort:{"makeCount":-1}}, {$limit:1}])
+
+//findAccidentContributors()
+//return car make, model, and year of all cars that contributed to an ACCIDENT
+
+    //EXAMPLE db.violations.find({"description":/FAILURE/})
+
+//findAccidentsCausedByAlcohol()
+//returns driver state, driver city, and time of stop for all violations that involved alcohol and the car was involved in accident
