@@ -11,12 +11,12 @@
 //findWorstOwner()
 //return car make with most violations
 
-    db.violations.aggregate([{$group:{_id:"$make",makeCount:{$sum:1}}}, {$sort:{"makeCount":-1}}, {$limit:1}])
+    db.violations.aggregate([{$group:{_id:"$vehicle.make",makeCount:{$sum:1}}}, {$sort:{"makeCount":-1}}, {$limit:1}])
 
 //findAccidentContributors()
 //return car make, model, and year of all cars that contributed to an ACCIDENT
 
-    db.violations.find({"description":/accident/i},{"_id":0, "make":1, "model":1, "year":1})
+    db.violations.find({"description":/accident/i},{"_id":0, "vehicle.make":1, "vehicle.model":1, "vehicle.year":1})
 
 //findAccidentsCausedByAlcohol()
 //returns driver state, driver city, and time of stop for all violations that involved alcohol and the car was involved in accident

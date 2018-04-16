@@ -6,11 +6,14 @@
   "description":"DRIVING VEHICLE ON HIGHWAY WITH SUSPENDED REGISTRATION",
   "location": "8804 FLOWER AVE",
   "state":"MD",
-  "vehicle type":"02 - Automobile",
-  "year":2008,
-  "make":"FORD",
-  "model":"4S",
-  "color":"BLACK",
+  "vehicle":
+  {
+    "vehicle type":"02 - Automobile",
+    "year":2008,
+    "make":"FORD",
+    "model":"4S",
+    "color":"BLACK"
+  },
   "violation type":"Citation",
   "charge":"13-401(h)",
   "article":"Transportation Article",
@@ -31,11 +34,14 @@
   "latitude":"38.981725",
   "longitude":"-77.0927566666667",
   "state":"VA",
-  "vehicle type":"02 - Automobile",
-  "year":2001,
-  "make":"TOYOTA",
-  "model":"COROLLA",
-  "color":"GREEN",
+  "vehicle":
+  {
+    "vehicle type":"02 - Automobile",
+    "year":2001,
+    "make":"TOYOTA",
+    "model":"COROLLA",
+    "color":"GREEN"
+  },
   "violation type":"Citation",
   "charge":"21-201(a1)",
   "article":"Transportation Article",
@@ -45,8 +51,7 @@
   "driver city":"FAIRFAX STATION",
   "driver state":"VA",
   "dl state":"VA",
-  "arrest type":"A - Marked Patrol",
-  "geolocation":"(38.981725,-77.0927566666667)"
+  "arrest type":"A - Marked Patrol"
 }
 {
   "date of stop":{$date:"2014-12-01T00:00:00Z"},
@@ -57,11 +62,14 @@
   "location": "CHRISTOPHER AVE/MONTGOMERY VILLAGE AVE",
   "latitude":"39.1628883333333",
   "longitude":"-77.2290883333333",
-  "vehicle type":"02 - Automobile",
-  "year":2001,
-  "make":"HONDA",
-  "model":"ACCORD",
-  "color":"SILVER",
+  "vehicle":
+  {
+    "vehicle type":"02 - Automobile",
+    "year":2001,
+    "make":"HONDA",
+    "model":"ACCORD",
+    "color":"SILVER"
+  },
   "violation type":"Citation",
   "charge":"21-403(b)",
   "article":"Transportation Article",
@@ -71,8 +79,7 @@
   "driver city":"UPPER MARLBORO",
   "driver state":"MD",
   "dl state":"MD",
-  "arrest type":"A - Marked Patrol",
-  "geolocation":"(39.1628883333333,-77.2290883333333)"
+  "arrest type":"A - Marked Patrol"
 }
 {
   "date of stop":{$date:"2017-08-29T00:00:00Z"},
@@ -84,11 +91,14 @@
   "latitude":"39.056975",
   "longitude":"-76.9546333333333",
   "state":"MD",
-  "vehicle type":"02 - Automobile",
-  "year":1998,
-  "make":"DODG",
-  "model":"DAKOTA",
-  "color":"WHITE",
+  "vehicle":
+  {
+    "vehicle type":"02 - Automobile",
+    "year":1998,
+    "make":"DODG",
+    "model":"DAKOTA",
+    "color":"WHITE"
+  },
   "violation type":"Citation",
   "charge":"21-402(b)",
   "article":"Transportation Article",
@@ -98,8 +108,7 @@
   "driver city":"FORT WASHINGTON",
   "driver state":"MD",
   "dl state":"MD",
-  "arrest type":"A - Marked Patrol",
-  "geolocation":"(39.056975, -76.9546333333333)"
+  "arrest type":"A - Marked Patrol"
 }
 {
   "date of stop":{$date:"2017-08-28T00:00:00Z"},
@@ -109,11 +118,14 @@
   "description":"FAILURE OF DR. TO MAKE LANE CHANGE TO AVAIL. LANE NOT IMMED. ADJ. TO STOPPED EMERG. VEH,",
   "location": "355 @ SOUTH WESTLAND DRIVE",
   "state":"MD",
-  "vehicle type":"02 - Automobile",
-  "year":2015,
-  "make":"MINI COOPER",
-  "model":"2S",
-  "color":"WHITE",
+  "vehicle":
+  {
+    "vehicle type":"02 - Automobile",
+    "year":2015,
+    "make":"MINI COOPER",
+    "model":"2S",
+    "color":"WHITE"
+  },
   "violation type":"Citation",
   "charge":"21-405(e1)",
   "article":"Transportation Article",
