@@ -16,9 +16,9 @@
 //findAccidentContributors()
 //return car make, model, and year of all cars that contributed to an ACCIDENT
 
-    db.violations.find({"description":/ACCIDENT/i},{"_id":0, "make":1, "model":1, "year":1})
+    db.violations.find({"description":/accident/i},{"_id":0, "make":1, "model":1, "year":1})
 
 //findAccidentsCausedByAlcohol()
 //returns driver state, driver city, and time of stop for all violations that involved alcohol and the car was involved in accident
 
-    db.violations.find({$and :[{"description":/ACCIDENT/i}, {"description":/ALCOHOL/i}]}, {"_id":0, "driver state":1, "driver city":1, "time of stop":1})
+    db.violations.find({$and :[{"description":/accident/i}, {"description":/alcohol/i}]}, {"_id":0, "driver state":1, "driver city":1, "time of stop":1})
