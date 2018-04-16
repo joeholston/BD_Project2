@@ -1,7 +1,7 @@
 //findByDate(searchDate)
 //return time of stop, subagency, and description for violations on searchDate
 
-    db.violations.find({"date of stop":{$eq:"searchDate"}},{"time of stop":1, "subagency":1, "description":1, "_id":0})
+    db.violations.find({"date of stop":{$eq:new Date("2017-08-29")}},{"time of stop":1, "subagency":1, "description":1, "_id":0})
 
 //countOutOfStateCars()
 //return number of cars that are not from MD
